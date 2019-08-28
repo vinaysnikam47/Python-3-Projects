@@ -21,3 +21,5 @@ Created by vinaysnikam47
 
 [Next Prime Number](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/next_prime_number.py) - Have the program to find prime numbers until the user chooses to stop asking for the next one. 
 
+[Fibonacci Sequence](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/fibonacci_sequence.py) - Have the program to find out fibonacci sequence upto the user input number.
+
