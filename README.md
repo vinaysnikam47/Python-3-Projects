@@ -25,3 +25,5 @@ Created by vinaysnikam47
 
 [Find Cost of Tile to cover W X H Floor](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/find_cost_of_tile_to_cover_W%20x%20H_%20floor.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
+[Calculator](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/simple_calculator.py) - A simple calculator to do basic operations.
+
