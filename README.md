@@ -5,6 +5,11 @@
 
 This repository contains python 3 projects.
 
+#### Some details: ####
+* Programming language used to complete this project is Python.
+* Way of completing this projects may not be best but it is one of the good ways.
+* This readme file will be updated with links as soon as project file added in the specific folder.
+
 Created by vinaysnikam47
 
 
