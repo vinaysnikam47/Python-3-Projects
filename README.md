@@ -23,3 +23,5 @@ Created by vinaysnikam47
 
 [Fibonacci Sequence](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/fibonacci_sequence.py) - Have the program to find out fibonacci sequence upto the user input number.
 
+[Find Cost of Tile to cover W X H Floor](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/find_cost_of_tile_to_cover_W%20x%20H_%20floor.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+
