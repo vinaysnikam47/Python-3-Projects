@@ -1,3 +1,6 @@
+# User will be asked for number
+# Program will show it's factors
+
 def prime_numbers(n): # Function to find out prime numbers
     primes = [2]
     for x in range(3,n+1,2):
