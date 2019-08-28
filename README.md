@@ -1,7 +1,6 @@
 
 # Python 3 Projects #
 
-----
 
 This repository contains python 3 projects.
 
@@ -11,6 +10,8 @@ This repository contains python 3 projects.
 * This readme file will be updated with links as soon as project file added in the specific folder.
 
 Created by vinaysnikam47
+
+===============================================================================
 
 
 ## Numbers ##
