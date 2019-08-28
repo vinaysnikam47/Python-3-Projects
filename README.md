@@ -9,6 +9,8 @@ This repository contains python 3 projects.
 * Way of completing this projects may not be best but it is one of the good ways.
 * This readme file will be updated with links as soon as project file added in the specific folder.
 
+#### I am creating this repository because I want to learn Python language quickly. #### 
+
 Created by vinaysnikam47
 
 ===============================================================================
@@ -16,3 +18,4 @@ Created by vinaysnikam47
 
 ## Numbers ##
 [Prime Factorization](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/prime_factorization.py) - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+
