@@ -1,7 +1,7 @@
 def prime_numbers(n):
-    primes = []
-    for x in range(2,n+1):
-        for y in range(2,n+1):
+    primes = [2]
+    for x in range(3,n+1,2):
+        for y in range(3,n+1):
             if x%y != 0:
                 continue
             else:
