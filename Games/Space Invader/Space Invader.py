@@ -125,14 +125,14 @@ def is_collision(t1,t2):
 	else:
 		return False
 
-# commands for keyboard and game control bindings
+# Commands for keyboard and game control bindings
 wn.listen()
 wn.onkeypress(player_move_right,key='Right')
 wn.onkeypress(player_move_left,key='Left')
 wn.onkeypress(fire_bullet,key='space')
 
 
-while True:
+while True:    # Wrapping function
 
 	for enemy in enemies:
 		x = enemy.xcor()
