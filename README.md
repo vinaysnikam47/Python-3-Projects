@@ -42,6 +42,8 @@ __Note:__ Keep all files in same folder for better experience.
 
 [Snake Game](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Games/Snake) - This is simple snake game. It can be played using arrow keys.
 
+[Space Invader](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Games/Space%20Invader) - This is single player space invader game. It can be played using space bar and arrow keys.
+
 
 
 
