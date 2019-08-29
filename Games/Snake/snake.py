@@ -1,4 +1,5 @@
 # Simple snake game in python for beginners
+# Use arrow keys for movement of snake
 
 import turtle
 import time
@@ -20,7 +21,6 @@ wn.bgpic('grass.png')
 
 
 # Snake head
-
 head = turtle.Turtle()
 head.speed(1)
 head.shape('square')
