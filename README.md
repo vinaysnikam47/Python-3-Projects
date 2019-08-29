@@ -32,6 +32,8 @@ Created by vinaysnikam47
 
 [Change return program](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/change_return_program.py) - The user enters a cost and then the amount of money given. The program will figure out the change and number of indian notes and coins needed for change.
 
+[Binary to decimal and back converter](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/binary_to_decimal_and_back_converter.py) - Converter to convert binary number to decimal and decimal number to binary.
+
 ===============================================================================
 
 ## Games ##
