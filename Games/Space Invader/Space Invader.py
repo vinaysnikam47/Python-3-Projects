@@ -1,3 +1,8 @@
+# Simple space invader game
+# Press space bar to fire bullet
+# Press left and right arrow keys for movement of player 
+
+
 import turtle
 import math
 import time
