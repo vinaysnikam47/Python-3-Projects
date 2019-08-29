@@ -1,3 +1,9 @@
+# Simple pong game for two players
+# Player 1 - Press 'W' and 'S' keys for movement 
+# Player 2 - Press 'Up arrow' and 'Down arrow' keys for movement
+# Player scoring 100 will win
+
+
 import turtle
 import time
 import winsound
@@ -131,7 +137,7 @@ while True:
 		ball.goto(0,0)
 		player_1_score += 10
 		pen.clear()
-		if player_1_score > 10:
+		if player_1_score > 90:
 			pen.goto(0, 0)
 			winsound.PlaySound('tada.wav', winsound.SND_ASYNC)
 			pen.color('deeppink')
@@ -154,7 +160,7 @@ while True:
 		ball.goto(0,0)
 		player_2_score += 10
 		pen.clear()
-		if player_2_score > 10:
+		if player_2_score > 90:
 			pen.goto(0, 0)
 			pen.color('deeppink')
 			winsound.PlaySound('tada.wav', winsound.SND_ASYNC)
