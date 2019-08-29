@@ -1,3 +1,5 @@
+# Simple analog clock showing current time
+
 import turtle
 import time
 import winsound
@@ -74,9 +76,8 @@ def draw_clock(h,m,s,pen):
 	pen.fd(180)
 	pen.pensize(4)
 
-
-
-while True:
+	
+while True:    # Wrapping function 
 	h = int(time.strftime('%I'))
 	m = int(time.strftime('%M'))
 	s = int(time.strftime('%S'))
