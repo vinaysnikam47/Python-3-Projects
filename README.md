@@ -34,7 +34,7 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Binary to decimal and back converter](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/binary_to_decimal_and_back_converter.py) - Converter to convert binary number to decimal and decimal number to binary.
 
-[Alarm clock](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Numbers/Alarm%20clock) - Simple alarm clock which can play an alarm sound after user input time.
+[Alarm clock](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Numbers/Alarm%20clock) - Simple alarm clock which starts ringing as soon as user input time gets complete. It can also set user specified time alarm.
 
 ===============================================================================
 
