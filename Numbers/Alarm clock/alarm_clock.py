@@ -60,7 +60,6 @@ def play_alarm():    # Function which helps alarm clock to ring
                     continue
 
                 else:
-
                     hour = int(set_time[:2])
                     minute = int(set_time[3:])                    
 
@@ -69,18 +68,19 @@ def play_alarm():    # Function which helps alarm clock to ring
                         continue
 
                     else:
-
                         h = int(time.strftime("%H"))
                         m = int(time.strftime("%M"))
 
                         if hour > h:
                             total_seconds = ((hour*60*60)+(minute*60))-((h*60*60)+(m*60))
+
                         elif hour == h:
                             if minute > m:
                                 total_seconds = (minute*60) - (m*60)
                             
                             else:
                                 total_seconds = (23*60*60) + ((60-(m-minute))*60)
+
                         else:
                             total_seconds = (((h+1+hour)*60*60)+(minute*60)) - ((h*60*60)+(m*60))
 
@@ -106,9 +106,11 @@ def main():    # Wrapping function
         if stop.lower() == 's':
             winsound.PlaySound(None, winsound.SND_PURGE)
             break
+
         elif stop.lower() == 'a':
             winsound.PlaySound(None, winsound.SND_PURGE)
             continue
+            
         else:
             print("wrong Input!")
             break
