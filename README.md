@@ -9,6 +9,8 @@ This repository contains python 3 projects.
 * Way of completing this projects may not be best but it is one of the good ways.
 * This readme file will be updated with links as soon as project file added in the specific folder.
 
+__Note__: All coding of this project files has been carried out in windows operating system. So some projects may not work in other operating system. Reason behind this is sometimes different commands need to be executed for different operating system to complete the same task.
+
 #### I am creating this repository because I want to learn Python language quickly. #### 
 
 Created by [vinaysnikam47](https://github.com/vinaysnikam47)
@@ -34,7 +36,7 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Binary to decimal and back converter](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/binary_to_decimal_and_back_converter.py) - Converter to convert binary number to decimal and decimal number to binary.
 
-[Alarm clock](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Numbers/Alarm%20clock) - Simple alarm clock which can play an alarm sound after user input time.
+[Alarm clock](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Numbers/Alarm%20clock) - Simple alarm clock which starts ringing as soon as user input time gets complete. It can also set user specified time alarm.
 
 ===============================================================================
 
