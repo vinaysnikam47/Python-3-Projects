@@ -65,6 +65,8 @@ __Note:__ Keep all files in same folder for better experience.
 
 [Space Invader](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Games/Space%20Invader) - This is single player space invader game. It can be played using space bar and arrow keys.
 
+[Tic Tac Toe](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Games/Tic%20Tac%20Toe) -Classic two players tic tac toe game.
+
 ===============================================================================
 
 ## Graphics and Multimedia ##
