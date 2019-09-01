@@ -119,7 +119,6 @@ def replay():
 
 	if user_input.lower() == 'y':
 		return True
-
 	else:
 		return False
 
