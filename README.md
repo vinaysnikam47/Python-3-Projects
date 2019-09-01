@@ -30,13 +30,28 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Find Cost of Tile to cover W X H Floor](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/find_cost_of_tile_to_cover_W%20x%20H_%20floor.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
-[Calculator](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/simple_calculator.py) - A simple calculator to do basic operations.
+[Calculator](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/simple_calculator.py) - A simple calculator to do basic operations i.e. addition, subtraction, multiplication and division. 
 
 [Change return program](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/change_return_program.py) - The user enters a cost and then the amount of money given. The program will figure out the change and number of indian notes and coins needed for change.
 
 [Binary to decimal and back converter](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/binary_to_decimal_and_back_converter.py) - Converter to convert binary number to decimal and decimal number to binary.
 
 [Alarm clock](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Numbers/Alarm%20clock) - Simple alarm clock which starts ringing as soon as user input time gets complete. It can also set user specified time alarm.
+
+===============================================================================
+
+## Text ##
+#### In this folder you will find projects on text. ####
+
+[Fizz Buzz](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/fizz_buzz.py) - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+[Reverse a string](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/reverse_a_string.py) - Enter a string and the program will reverse it and print it out.
+
+[Pig Latin](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/pig_latin.py) - Pig Latin is a game of alterations played on the English language game. This program will tell pig latin form of english word.
+
+[Count vowels](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/count_vowels.py) - Enter a string and the program counts the number of vowels in the text also count of each vowel.
+
+[Check if palindrome](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/check_if_palindrome.py) - Enter a string and the program will tell you wheather its palindrome or not.
 
 ===============================================================================
 
