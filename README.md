@@ -57,13 +57,15 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 ## Games ##
 #### In this folder you will find games made by using turtle graphics. ####
-__Note:__ Keep all files in same folder for better experience.
+__Note:__ Keep all files in same folder for project to run.
 
 [Pong Game](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Games/Pong%20game) - This is simple pong game for two players. It can be played by using keyboard buttons.
 
 [Snake Game](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Games/Snake) - This is simple snake game. It can be played using arrow keys.
 
 [Space Invader](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Games/Space%20Invader) - This is single player space invader game. It can be played using space bar and arrow keys.
+
+[Tic Tac Toe](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Games/Tic%20Tac%20Toe) - Classic two players tic tac toe game.
 
 ===============================================================================
 
