@@ -38,6 +38,8 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Alarm clock](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Numbers/Alarm%20clock) - Simple alarm clock which starts ringing as soon as user input time gets complete. It can also set user specified time alarm.
 
+[Factorial Finder](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/factorial_finder.py) - Have the user enter a number. Program will tell its factorial.
+
 ===============================================================================
 
 ## Text ##
