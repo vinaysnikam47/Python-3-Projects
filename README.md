@@ -57,6 +57,13 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 ===============================================================================
 
+## Classic Algorithms ##
+#### In this folder you will find projects on classic algorithms ####
+
+[Collatz Conjecture](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Classic%20Algorithms/collatz_conjecture.py) - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1.
+
+===============================================================================
+
 ## Games ##
 #### In this folder you will find games made by using turtle graphics. ####
 __Note:__ Keep all files in same folder for project to run.
