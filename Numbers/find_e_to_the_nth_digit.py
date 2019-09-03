@@ -8,7 +8,7 @@ from decimal import *
 
 def get_e(n):  # Function to get value of e
 
-	n = n + 1
+	n = n + 1  # Otherwise this function will give value upto (n-1)th decimal
 
 	getcontext().prec = n
 
