@@ -1,12 +1,12 @@
-# Pi vakue calculator
+# Pi value calculator
 # Algorithm used - Chudnovsky algorithm
 
 from math import *
 from decimal import *
 
-# Function to calculate iterated valu of k
+# Function to calculate iterated value of k
 # K iteration calculates value of pi upto k-1 decimal
-# So to find value of pi upto k we have to do k+1 iteration
+# So to find value of pi upto k we have to carry out k+1 iteration
 def get_iterated_value_k(k): 
 
 	k = k + 1
@@ -39,7 +39,7 @@ def main():
 
 	while True:
 
-		k = input('\nEnter number of digits up to which you want to find value of Pi or press quit to exit: ')
+		k = input('\nEnter number of digits up to which you want to find value of Pi or enter quit to exit: ')
 
 		if k == 'quit':
 			break
