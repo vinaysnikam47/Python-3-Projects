@@ -42,6 +42,8 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Find Pi to the nth digit](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/find_pi_to_the_nth_digit.py) - Have the user enter a digit, program will show value of pi upto that many decimal places.
 
+[Find e to the nth digit](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/find_e_to_the_nth_digit.py) - Have the user enter a digit, program will show value of pi upto that many decimal places.
+
 ===============================================================================
 
 ## Text ##
