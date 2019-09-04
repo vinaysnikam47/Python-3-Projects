@@ -48,6 +48,8 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Distance between two cities](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/distance_between_two_cities.py) - Have the user enter two cities names and unit of distance, program will tell the aerial distance between two cities.
 
+[Credit Card validator](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/credit_card_validator.py) - Have the user enter 16 digit number. Program will tell wheather its valid credit card number or not.
+
 ===============================================================================
 
 ## Text ##
