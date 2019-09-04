@@ -46,6 +46,8 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Temperature and Currency converter](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/temp_and_currency_converter.py) - Have the user enter tempertaure and currency, converter will convert entered value into user specified unit/currency.
 
+[Distance between two cities](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/distance_between_two_cities.py) - Have the user enter two cities names and unit of distance, program will tell the aerial distance between two cities.
+
 ===============================================================================
 
 ## Text ##
