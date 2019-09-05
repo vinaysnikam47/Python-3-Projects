@@ -50,6 +50,10 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Credit Card validator](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/credit_card_validator.py) - Have the user enter 16 digit number. Program will tell wheather its valid credit card number or not.
 
+[Complex Number Algebra](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/complex_number_algebra.py) - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
+
+[Tax Calculator](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/tax_calculator.py) - Have the user enter cost of product and GST rate, program will tell tax cost and total cost of the product.
+
 ===============================================================================
 
 ## Text ##
