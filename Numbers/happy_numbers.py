@@ -25,18 +25,22 @@ def main():
 	
 	happy_numbers = []
 
-	for num in range(100):
+	print('This program can find out happy numbers below 10000.')
+
+	user_input = int(input('\nHow many first happy numbers you want to see: '))
+
+	for num in range(10000):
 
 		if is_happy_num(str(num)):
 			happy_numbers.append(num)
-			if len(happy_numbers) == 8:
+			if len(happy_numbers) == user_input:
 				break
 			continue
 
 		else:
 			pass
 
-	print(f"First 8 happy numbers are : {happy_numbers}")
+	print(f"First {user_input} happy numbers are : {happy_numbers}")
 
 if __name__ == '__main__':
 	main()
