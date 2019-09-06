@@ -32,11 +32,11 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Calculator](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/simple_calculator.py) - A simple calculator to do basic operations i.e. addition, subtraction, multiplication and division. 
 
-[Change return program](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/change_return_program.py) - The user enters a cost and then the amount of money given. The program will figure out the change and number of indian notes and coins needed for change.
+[Change Return Program](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/change_return_program.py) - The user enters a cost and then the amount of money given. The program will figure out the change and number of indian notes and coins needed for change.
 
-[Binary to decimal and back converter](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/binary_to_decimal_and_back_converter.py) - Converter to convert binary number to decimal and decimal number to binary.
+[Binary to Decimal and Back converter](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/binary_to_decimal_and_back_converter.py) - Converter to convert binary number to decimal and decimal number to binary.
 
-[Alarm clock](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Numbers/Alarm%20clock) - Simple alarm clock which starts ringing as soon as user input time gets complete. It can also set user specified time alarm.
+[Alarm Clock](https://github.com/vinaysnikam47/Python-3-Projects/tree/master/Numbers/Alarm%20clock) - Simple alarm clock which starts ringing as soon as user input time gets complete. It can also set user specified time alarm.
 
 [Factorial Finder](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/factorial_finder.py) - Have the user enter a number. Program will tell its factorial.
 
@@ -46,9 +46,9 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Temperature and Currency converter](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/temp_and_currency_converter.py) - Have the user enter tempertaure and currency, converter will convert entered value into user specified unit/currency.
 
-[Distance between two cities](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/distance_between_two_cities.py) - Have the user enter two cities names and unit of distance, program will tell the aerial distance between two cities.
+[Distance between Two cities](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/distance_between_two_cities.py) - Have the user enter two cities names and unit of distance, program will tell the aerial distance between two cities.
 
-[Credit Card validator](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/credit_card_validator.py) - Have the user enter 16 digit number. Program will tell wheather its valid credit card number or not.
+[Credit Card Validator](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/credit_card_validator.py) - Have the user enter 16 digit number. Program will tell wheather its valid credit card number or not.
 
 [Complex Number Algebra](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/complex_number_algebra.py) - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
 
@@ -56,7 +56,9 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Happy Numbers](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/happy_numbers.py) - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display an example of your output here. Find first 8 happy numbers.
 
-[Number names](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/number_names.py) - Show how to spell out a number in English. You can use a preexisting implementation or roll your own. It can tell names upto 1 million.
+[Number Names](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/number_names.py) - Show how to spell out a number in English. You can use a preexisting implementation or roll your own. It can tell names upto 1 million.
+
+[Coin Flip Simulation](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/coin_flip_simulation.py) - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
 
 ===============================================================================
 
@@ -65,13 +67,13 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Fizz Buzz](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/fizz_buzz.py) - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
-[Reverse a string](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/reverse_a_string.py) - Enter a string and the program will reverse it and print it out.
+[Reverse a String](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/reverse_a_string.py) - Enter a string and the program will reverse it and print it out.
 
 [Pig Latin](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/pig_latin.py) - Pig Latin is a game of alterations played on the English language game. This program will tell pig latin form of english word.
 
-[Count vowels](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/count_vowels.py) - Enter a string and the program counts the number of vowels in the text also count of each vowel.
+[Count Vowels](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/count_vowels.py) - Enter a string and the program counts the number of vowels in the text also count of each vowel.
 
-[Check if palindrome](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/check_if_palindrome.py) - Enter a string and the program will tell you wheather its palindrome or not.
+[Check if Palindrome](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Text/check_if_palindrome.py) - Enter a string and the program will tell you wheather its palindrome or not.
 
 ===============================================================================
 
