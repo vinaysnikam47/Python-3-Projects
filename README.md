@@ -60,6 +60,8 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Coin Flip Simulation](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/coin_flip_simulation.py) - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
 
+[Fast Exponentiation](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/fast_exponentiation.py) - Ask the user to enter 2 integers a and b and output will be a^b (i.e. pow(a,b)).
+
 ===============================================================================
 
 ## Text ##
