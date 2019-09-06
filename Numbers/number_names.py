@@ -1,10 +1,12 @@
-# Have the user enter a number below 10000
+# Have the user enter a number below 1000000
 # Program will tell its name
 
 # Function to find out names of number upto 99
 def below_100(number):
 
 	name = ''
+	s = str(number)
+	list_num = [int(n) for n in s] + [' ']
 
 	if number <= 19:
 		name += first_nineteen[number].capitalize()
@@ -21,6 +23,8 @@ def below_100(number):
 def below_1000(number):
 
 	name = ''
+	s = str(number)
+	list_num = [int(n) for n in s] + [' ']
 	hundredth_place = list_num[-4]
 	tenth_place = list_num[-3]
 	ones = list_num[-2]
@@ -38,16 +42,43 @@ def below_1000(number):
 		name += (' and ' + tens[tenth_place].capitalize() + ' ' + first_nineteen[ones])
 		return name
 
-# Function to find out names of number from 1000 to 9999
-def below_10000(number):
+# Function to find out names of number from 1000 to 999999
+def below_100000(number):
 
 	name = ''
+	s = str(number)
+	list_num = [int(n) for n in s] + [' ']
 	thousand_place = list_num[-5]
 	hundredth_place = list_num[-4]
 	tenth_place = list_num[-3]
 	ones = list_num[-2]
 
-	name += (first_nineteen[thousand_place].capitalize() + ' ' + places[2])
+	name += (below_100(number//1000) + ' ' + places[2])
+
+	if number % 1000 == 0:
+		return name
+
+	elif number % 1000 < 100:
+		reamining = below_100(number%1000)
+		name += (' ' + reamining)
+		return name
+
+	else:
+		reamining = below_1000(number%1000)
+		name += (', ' + reamining)
+		return name
+
+def below_1000000(number):
+
+	name = ''
+	s = str(number)
+	list_num = [int(n) for n in s] + [' ']
+	thousand_place = list_num[-5]
+	hundredth_place = list_num[-4]
+	tenth_place = list_num[-3]
+	ones = list_num[-2]
+
+	name += (below_1000(number//1000) + ' ' + places[2])
 
 	if number % 1000 == 0:
 		return name
@@ -75,15 +106,19 @@ def main():
 			print(below_1000(number))
 			break
 
-		elif number < 10000:
-			print(below_10000(number))
+		elif number < 100000:
+			print(below_100000(number))
+			break
+
+		elif number < 1000000:
+			print(below_1000000(number))
 			break
 
 
 if __name__ == '__main__':
 	while True:
 		num = input("\nEnter a number: ")
-		list_num = [int(n) for n in num] + [' ']
+
 		number = int(num)
 
 		first_nineteen = ['','one','two','three','four','five','six','seven','eight','nine'\
