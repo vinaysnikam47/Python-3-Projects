@@ -58,7 +58,7 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Number Names](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/number_names.py) - Show how to spell out a number in English. You can use a preexisting implementation or roll your own. It can tell names upto 1 million.
 
-[Coin flip simulation](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/coin_flip_simulation.py) - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
+[Coin Flip Simulation](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Numbers/coin_flip_simulation.py) - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
 
 ===============================================================================
 
