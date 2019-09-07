@@ -15,8 +15,7 @@ def dec_to_bin_conv(num):    # Function to convert decimal number to binary
 
 while True:    # Wrapping function
     
-    user_input = input('Would you like to convert A) binary to decimal B) decimal to binary? choose A/B or \
-                       enter quit to exit: ')
+    user_input = input('Would you like to convert A) binary to decimal B) decimal to binary? choose A/B or enter quit to exit: ')
     
     if user_input.lower() == 'a':
         
