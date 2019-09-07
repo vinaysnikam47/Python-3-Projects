@@ -79,6 +79,13 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 ===============================================================================
 
+## Classes ##
+#### In this folder you will find projects on classes ####
+
+[Product Inventory Project](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Classes/product_inventory_project.py) - This is product inventory project of technology shop. Inventory management of different products of this shop has been carried out here. This project also shows the bill.
+
+===============================================================================
+
 ## Classic Algorithms ##
 #### In this folder you will find projects on classic algorithms ####
 
