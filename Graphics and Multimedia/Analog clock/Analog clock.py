@@ -4,10 +4,11 @@ import turtle
 import time
 import winsound
 
+
 # Craeation of Screen
 wn = turtle.Screen()
 wn.bgcolor('white')
-wn.setup(width=600,height=600)
+wn.setup(width=600, height=600)
 wn.title('Analog clock by Vinay')
 wn.tracer(0)
 
@@ -17,11 +18,12 @@ pen.hideturtle()
 pen.speed(0)
 pen.pensize(4)
 
-def draw_clock(h,m,s,pen):
+
+def draw_clock(h, m, s, pen):
 
 	# Clock shape
 	pen.up()
-	pen.goto(0,210)
+	pen.goto(0, 210)
 	pen.setheading(180)
 	pen.color('grey')
 	pen.pendown()
@@ -31,7 +33,6 @@ def draw_clock(h,m,s,pen):
 	pen.up()
 	pen.goto(0, 0)
 	pen.setheading(90)
-
 
 	for i in range(12):
 		pen.fd(190)
@@ -51,7 +52,6 @@ def draw_clock(h,m,s,pen):
 	angle = ((h/12)*360)+(30*m/60)+(s*30/3600)
 	pen.rt(angle)
 	pen.fd(70)
-
 
 	# Creation of Minute hand
 	pen.up()
@@ -82,14 +82,10 @@ while True:    # Wrapping function
 	m = int(time.strftime('%M'))
 	s = int(time.strftime('%S'))
 
-
 	draw_clock(h,m,s,pen)
 	winsound.PlaySound('tick.wav', winsound.SND_ASYNC)
 	wn.update()
-
 	time.sleep(1)
-
 	pen.clear()
-
 
 wn.mainloop()	

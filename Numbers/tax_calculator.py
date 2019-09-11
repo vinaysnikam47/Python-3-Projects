@@ -3,26 +3,23 @@
 
 
 # Function to calculate tax cost and total cost
-def tax_calculator(cost,rate):
-
-    tax_cost = (cost*rate)/100
+def tax_calculator(cost, rate):
+    tax_cost = (cost * rate) / 100
     total_cost = cost + tax_cost
 
-    return tax_cost,total_cost
+    return tax_cost, total_cost
+
 
 # Wrapping function
 def main():
-
     while True:
 
         try:
             user_input = float(input('\nEnter cost of the product:'))
-
             cost = float(user_input)
-
             rate = float(input('Enter GST rate in percentage: '))
 
-            tax_cost,total_cost = tax_calculator(cost, rate)
+            tax_cost, total_cost = tax_calculator(cost, rate)
 
             print(f'\nTax Cost = ₹{tax_cost}')
             print(f"Total_cost = ₹{total_cost}")

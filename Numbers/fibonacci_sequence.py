@@ -1,11 +1,12 @@
 # Fibonacci sequence program upto user given number
 
+
 def fibonacci_sequence(n):  # Function to find out fibonacci sequence
     x = 1
     y = 1
     for i in range(100):
         yield x
-        x,y = y, x+y
+        x, y = y, x+y
         
         
 def main():   # Wrapping function
@@ -25,6 +26,7 @@ def main():   # Wrapping function
         else:
             print('Wrong input !')
             continue
-    
+
+
 if __name__ == '__main__':
     main()

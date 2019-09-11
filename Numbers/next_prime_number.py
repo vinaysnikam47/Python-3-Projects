@@ -1,12 +1,13 @@
 # User will be asked if he wants to see next prime number
 # If yes it will show next prime 
 
+
 def is_prime(n):   # Function to check whether number is prime or not
     primes = [2]
     
-    for x in range(3,n+1,2):
-        for y in range(3,n+1):
-            if x%y != 0:
+    for x in range(3, n+1, 2):
+        for y in range(3, n+1):
+            if x % y != 0:
                 continue
             else:
                 if x == y:
@@ -15,6 +16,7 @@ def is_prime(n):   # Function to check whether number is prime or not
                     break
                 
     return n in primes
+
 
 def main():  # Wrapping function
     num = 2
@@ -25,7 +27,7 @@ def main():  # Wrapping function
         if user_input.lower() == 'y':
             while True:
                 if not is_prime(num):
-                    num+=1
+                    num += 1
                     continue
                 else:
                     print(num)
@@ -34,10 +36,10 @@ def main():  # Wrapping function
             continue
         elif user_input.lower() == 'n':
             break
-
         else:
             print('Wrong input !')
             continue
-            
+
+
 if __name__ == '__main__':
     main()

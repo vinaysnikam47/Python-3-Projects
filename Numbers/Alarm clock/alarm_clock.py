@@ -5,37 +5,38 @@
 import time
 import winsound
 
-def play_alarm():    # Function which helps alarm clock to ring
+
+def play_alarm():  # Function which helps alarm clock to ring
 
     while True:
 
         user_input = input('\nChoose between following options h/m/s/c/t: ')
-    
+
         # Ring after user input hours
         if user_input.lower() == 'h':
             hour = int(input('After how many hours you would like an alarm clock to ring: '))
             print(f"\nThank you ! Alarm clock will ring after {hour} hour/hours.")
-            total_seconds = hour*60*60
+            total_seconds = hour * 60 * 60
             time.sleep(total_seconds)
             winsound.PlaySound('alarm.wav', winsound.SND_ASYNC)
             break
-     
+
         # Ring after user input minutes
         elif user_input.lower() == 'm':
             minute = int(input('After how many minutes you would like an alarm clock to ring: '))
             print(f"\nThank you ! Alarm clock will ring after {minute} minute/minutes.")
-            total_seconds = minute*60
+            total_seconds = minute * 60
             time.sleep(total_seconds)
             winsound.PlaySound('alarm.wav', winsound.SND_ASYNC)
             break
-        
+
         # Ring after user input seconds
         elif user_input.lower() == 's':
             second = int(input('After how many seconds you would like an alarm clock to ring: '))
             print(f"\nThank you ! Alarm clock will ring after {second} second/seconds.")
             total_seconds = second
             time.sleep(total_seconds)
-            winsound.PlaySound("alarm.wav",winsound.SND_ASYNC)
+            winsound.PlaySound("alarm.wav", winsound.SND_ASYNC)
             break
 
         # Ring after user input combined hours,minutes and seconds
@@ -44,7 +45,7 @@ def play_alarm():    # Function which helps alarm clock to ring
             minute = int(input('Enter minutes: '))
             second = int(input('Enter seconds: '))
             print(f"\nThank you ! Alarm clock will ring after {hour} hours,{minute} minutes and {second} seconds.")
-            total_seconds = (hour*60*60)+(minute*60)+second
+            total_seconds = (hour * 60 * 60) + (minute * 60) + second
             time.sleep(total_seconds)
             winsound.PlaySound('alarm.wav', winsound.SND_ASYNC)
             break
@@ -61,7 +62,7 @@ def play_alarm():    # Function which helps alarm clock to ring
 
                 else:
                     hour = int(set_time[:2])
-                    minute = int(set_time[3:])                    
+                    minute = int(set_time[3:])
 
                     if hour > 23 or minute > 59:
                         print('Wrong input!')
@@ -72,17 +73,16 @@ def play_alarm():    # Function which helps alarm clock to ring
                         m = int(time.strftime("%M"))
 
                         if hour > h:
-                            total_seconds = ((hour*60*60)+(minute*60))-((h*60*60)+(m*60))
+                            total_seconds = ((hour * 60 * 60) + (minute * 60)) - ((h * 60 * 60) + (m * 60))
 
                         elif hour == h:
                             if minute > m:
-                                total_seconds = (minute*60) - (m*60)
-                            
+                                total_seconds = (minute * 60) - (m * 60)
                             else:
-                                total_seconds = (23*60*60) + ((60-(m-minute))*60)
+                                total_seconds = (23 * 60 * 60) + ((60 - (m - minute)) * 60)
 
                         else:
-                            total_seconds = (((h+1+hour)*60*60)+(minute*60)) - ((h*60*60)+(m*60))
+                            total_seconds = (((h + 1 + hour) * 60 * 60) + (minute * 60)) - ((h * 60 * 60) + (m * 60))
 
                         print(f"Thank you ! Alarm clock will start ringing at {hour} hours and {minute} minutes.")
                         time.sleep(total_seconds)
@@ -90,19 +90,19 @@ def play_alarm():    # Function which helps alarm clock to ring
                 break
             break
 
-
         else:
             print('Wrong input ! Please try again.')
             continue
 
-def main():    # Wrapping function
-        
-    while True:    
+
+def main():  # Wrapping function
+
+    while True:
         print('\nWelcome to alarm clock !')
         print("h >> Hour \nm >> Minute \ns >> Second \nc >> Combination \nt >> Time(24 hour clock)")
         play_alarm()
         stop = input("\nWould you like to stop(S) an alarm or set an another(A) alarm S/A: ")
-        
+
         if stop.lower() == 's':
             winsound.PlaySound(None, winsound.SND_PURGE)
             break
@@ -110,11 +110,11 @@ def main():    # Wrapping function
         elif stop.lower() == 'a':
             winsound.PlaySound(None, winsound.SND_PURGE)
             continue
-            
+
         else:
             print("wrong Input!")
             break
 
+
 if __name__ == '__main__':
     main()
-

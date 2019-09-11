@@ -31,8 +31,7 @@ class Hotel:
         bottomframe = Frame(mainframe, width=1340, height=150, bd=5, relief=RIDGE, bg='powder blue', padx=10)
         bottomframe.pack(side=BOTTOM)
 
-        # ====================================== Functions for Buttons ============================================
-
+        # Functions for Buttons
         def i_exit():
             winsound.PlaySound('tick.wav', winsound.SND_ASYNC)
             answer = tkinter.messagebox.askquestion(title='Exit', message='Do you want to exit the application?')
@@ -123,13 +122,12 @@ class Hotel:
         total_cost = StringVar()
         money_paid_by = StringVar()
 
-        # =============================================== Title ====================================================
-
+        # Title
         self.lbl_title = Label(titleframe, font=('calibry', 24, 'bold'), bg='powder blue',
                                text='Hotel Management System', fg='slate blue', padx=2, pady=8)
         self.lbl_title.pack()
 
-        # ============================================= Widgets ====================================================
+        # Widgets
 
         # Customer reference
         self.lbl_customer_ref = Label(leftframe, font=('calibry', 12, 'bold'), bg='powder blue', text='Customer Ref:',
@@ -260,8 +258,7 @@ class Hotel:
         self.cbo_room_ext_no.current(0)
         self.cbo_room_ext_no.grid(row=16, column=1, pady=3, padx=20)
 
-        # ============================================ Receipt ======================================================
-
+        # Receipt
         self.lbl_receipt = Label(rightframe, font=('calibry', 10, 'bold'),
                                  text='C.Ref.    First Name    Last Name    Address    Mobile'
                                       '    Email    Gender    Identity    Check in    Check out    Room type   '
@@ -270,8 +267,7 @@ class Hotel:
         self.txt_receipt = Text(rightframe, height=15, width=132, font=('calibry', 10), pady=10, padx=2, bd=5)
         self.txt_receipt.grid(row=1, column=0, columnspan=2)
 
-        # ============================================ Payment ======================================================
-
+        # Payment
         self.lbl_days = Label(rightframe, font=('calibry', 12, 'bold'), text='No. of Days:', bd=7, bg='cadet blue',
                               pady=1)
         self.lbl_days.grid(row=2, column=0, sticky=W)
@@ -309,8 +305,7 @@ class Hotel:
         self.cbo_money_paid_by.current(0)
         self.cbo_money_paid_by.grid(row=6, column=1)
 
-        # ============================================ Buttons ======================================================
-
+        # Buttons
         self.btn_total = Button(bottomframe, text='Total', font=('calibry', 16, 'bold'), bd=6, pady=10, padx=5,
                                 bg='cadet blue', width=23, command=total_cost_and_days)
         self.btn_total.grid(row=0, column=0, padx=4, pady=16)
@@ -326,8 +321,6 @@ class Hotel:
         self.btn_exit = Button(bottomframe, text='Exit', font=('calibry', 16, 'bold'), bd=6, pady=10, padx=5,
                                bg='cadet blue', width=23, command=i_exit)
         self.btn_exit.grid(row=0, column=6, padx=4, pady=16)
-
-        # ============================================ ||**|| ======================================================
 
 
 if __name__ == '__main__':

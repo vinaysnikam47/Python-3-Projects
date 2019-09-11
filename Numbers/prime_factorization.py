@@ -1,11 +1,12 @@
 # User will be asked for number
 # Program will show it's factors
 
-def prime_numbers(n): # Function to find out prime numbers
+
+def prime_numbers(n):  # Function to find out prime numbers
     primes = [2]
-    for x in range(3,n+1,2):
-        for y in range(3,n+1):
-            if x%y != 0:
+    for x in range(3, n + 1, 2):
+        for y in range(3, n + 1):
+            if x % y != 0:
                 continue
             else:
                 if x == y:
@@ -13,6 +14,7 @@ def prime_numbers(n): # Function to find out prime numbers
                 else:
                     break
     return primes
+
 
 def main():  # Wrapping function
     while True:
@@ -30,19 +32,18 @@ def main():  # Wrapping function
                 print('Wrong Input!')
                 continue
             else:
-                i = 0    
+                i = 0
                 while prime_nums[i] <= num:
-                    remainder = num%prime_nums[i]
+                    remainder = num % prime_nums[i]
                     if remainder == 0:
                         factors.append(prime_nums[i])
-                        num = num/prime_nums[i]
+                        num = num / prime_nums[i]
                         continue
                     else:
                         i += 1
                         continue
-                    break
 
-            print(f'Factors of given numbers are: ',end = '')
+            print(f'Factors of given numbers are: ', end='')
             print('*'.join(str(number) for number in factors))
             continue
         else:
@@ -51,6 +52,7 @@ def main():  # Wrapping function
             else:
                 print('Wrong input!')
                 continue
-        
+
+
 if __name__ == "__main__":
     main()

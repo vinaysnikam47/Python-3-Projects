@@ -5,16 +5,12 @@
 def change_return(cost, amount):    # Function to calculate change
 
     change = [2000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
-
     amount_to_be_returned = amount - cost
-
     remaining = amount_to_be_returned
     return_list = []
-
     i = 0
 
     while remaining != 0:
-
         if remaining < change[i]:
             i += 1
             continue
@@ -22,7 +18,6 @@ def change_return(cost, amount):    # Function to calculate change
             remaining = remaining - change[i]
             return_list.append(change[i])
             continue
-        break
 
     return return_list, amount_to_be_returned
 
@@ -30,12 +25,9 @@ def change_return(cost, amount):    # Function to calculate change
 def main():    # Wrapping function
 
     change = [2000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
-
-    cost = int(input('Enter cost of the item to be purchased? '))
-    amount = int(input('Enter amount paid for the item? '))
-
+    cost = int(input('Enter cost of the item to be purchased: '))
+    amount = int(input('Enter amount paid for the item: '))
     returns = change_return(cost, amount)
-
     print(f'\nTotal amount to be returned: ₹{returns[1]}')
 
     for note in change[:6]:

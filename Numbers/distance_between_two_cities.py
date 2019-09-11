@@ -5,7 +5,8 @@
 from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 
-geolocator = Nominatim(user_agent='my_application',timeout = 1)
+geolocator = Nominatim(user_agent='my_application', timeout=10)
+
 
 # Function to calculate distance between cities
 def distance_calc():
@@ -20,8 +21,8 @@ def distance_calc():
             location_1 = geolocator.geocode(first_city)
             location_2 = geolocator.geocode(second_city)
 
-            coor1 = (location_1.latitude,location_1.longitude)
-            coor2 = (location_2.latitude,location_2.longitude)
+            coor1 = (location_1.latitude, location_1.longitude)
+            coor2 = (location_2.latitude, location_2.longitude)
         except:
             print("Something's Wrong ! Please try again.")
             continue
@@ -45,5 +46,3 @@ def distance_calc():
 
 if __name__ == '__main__':
     distance_calc()
-
-

@@ -4,43 +4,35 @@
 # Program will tell number of steps reuires to reach 1
 
 
-def collatzRecur(num):  # Function to find out number of steps
+def collatz_recur(num):  # Function to find out number of steps
 
 	count = 0
 
 	while num != 1:
-	
 		if num % 2 == 0:
 			num /= 2
 			count += 1
 			continue
-
 		elif num % 2 != 0:
 			num = (num*3) + 1
 			count += 1
 			continue
-
 	return count
+
 
 def main():  # Wrapping function
 
 	while True:
-
 		num = input("Enter a number or enter quit() to exit: ")
-
 		if num.isdigit():
-
 			if int(num) <= 1:
 				print("Wrong input !")
 				continue
-
 			else:
-				print(collatzRecur(int(num)))
+				print(collatz_recur(int(num)))
 				continue
-
 		elif num == 'quit()':
 			break
-
 		else:
 			print('Wrong input !')
 			continue
@@ -48,13 +40,3 @@ def main():  # Wrapping function
 
 if __name__ == "__main__":
 	main()
-
-
-
-
-
-
-
-
-
- 

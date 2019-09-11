@@ -1,8 +1,7 @@
 # Bank Account Manager
 
+
 # Class for Checking Account
-
-
 class CheckingAccount:
 
     def __init__(self, pin, owner, balance):
@@ -25,9 +24,8 @@ class CheckingAccount:
     def show_balance(self):
         print(f'Your balance is ₹{self.balance}')
 
+
 # Class for Saving Account
-
-
 class SavingAccount:
 
     def __init__(self, pin, owner, balance):
@@ -50,9 +48,8 @@ class SavingAccount:
     def show_balance(self):
         print(f'Your balance is ₹{self.balance}')
 
+
 # Class for Business Account
-
-
 class BusinessAccount:
 
     def __init__(self, pin, owner, balance):
@@ -75,9 +72,8 @@ class BusinessAccount:
     def show_balance(self):
         print(f'Your balance is ₹{self.balance}')
 
+
 # Function for ATM operation
-
-
 def atm_operation(pin):
     while True:
         acc_type = {'1': 'Checking', '2': 'Saving', '3': 'Business'}
@@ -114,9 +110,8 @@ def atm_operation(pin):
             print("Something's Wrong ! Please try again !")
             continue
 
+
 # Account Creation >> GLobal Variables
-
-
 vinay_checking_acc = CheckingAccount(1, 'Vinay', 10000)
 vivek_saving_acc = SavingAccount(2, 'Vivek', 20000)
 vivek_business_acc = BusinessAccount(2, 'Vivek', 30000)
@@ -124,9 +119,8 @@ vivek_business_acc = BusinessAccount(2, 'Vivek', 30000)
 account_dic = {'1': {'Owner': 'Vinay', 'Acc_type': {'Checking': vinay_checking_acc}},
                '2': {'Owner': 'Vivek', 'Acc_type': {'Saving': vivek_saving_acc, 'Business': vivek_business_acc}}}
 
+
 # Wrapping FUnction
-
-
 def main():
     while True:
 
