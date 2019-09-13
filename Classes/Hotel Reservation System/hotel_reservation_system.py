@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import ttk
+from tkinter import filedialog
 import tkinter.messagebox
 from datetime import datetime
 import winsound
@@ -39,13 +40,22 @@ class Hotel:
                 root.destroy()
                 return
 
+        def save_receipt():
+            f = filedialog.asksaveasfile(mode='w', defaultextension='.doc')
+            f.write(self.txt_receipt.get(1.0, END))
+            f.close()
+
         def receipt():
             winsound.PlaySound('tick.wav', winsound.SND_ASYNC)
-            self.txt_receipt.insert(END, customer_ref.get() + '\t' + first_name.get() + '\t' + last_name.get() +
-                                    '\t' + address.get() + '\t' + mobile.get() + '\t' +
-                                    email.get() + '\t' + gender.get() + '\t' + identity.get() + '\t' +
-                                    check_in_date.get() + '\t' + check_out_date.get() + '\t' + room_type.get() +
-                                    '\t' + meal.get() + '\t' + total_cost.get() + '\t' + money_paid_by.get() + '\n')
+            self.txt_receipt.insert(END, '\t\t\t  Customer Ref. No - ' + customer_ref.get() + '\n\n' + 'Name - ' +
+                                    first_name.get() + ' ' + last_name.get() + '.\t\t\t\t' + 'Identity Proof - '
+                                    + identity.get() + '\n' + 'Mobile No. - ' + mobile.get() + '\n' + 'Email id - ' +
+                                    email.get() + '\n' + '\n\n' + 'Check In Date - ' + check_in_date.get() + '\t\t\t' +
+                                    'Check out Date - ' + check_out_date.get() + '\n' + 'Room No. - ' +
+                                    room_no.get() + '\t\t\t\t\t' + 'Room type - ' + room_type.get() + '\n' +
+                                    'Sub Total(Rs.) - ' + sub_total.get()
+                                    + '\n' + 'Tax Paid(Rs.) - ' + tax_paid.get() + '\n\n' + 'Total(Rs.) - ' +
+                                    total_cost.get() + '\n\n' + 'Cash Paid by - ' + money_paid_by.get())
 
         def reset():
             winsound.PlaySound('tick.wav', winsound.SND_ASYNC)
@@ -92,9 +102,9 @@ class Hotel:
             q4 = float(q3*float(no_of_days.get()))
             q5 = float(q4*0.2)
             q6 = q4+q5
-            tax = '₹'+str(q5)
-            sub_t = '₹' + str(q4)
-            total_c = '₹' + str(q6)
+            tax = str(q5)
+            sub_t = str(q4)
+            total_c = str(q6)
             tax_paid.set(tax)
             sub_total.set(sub_t)
             total_cost.set(total_c)
@@ -259,12 +269,10 @@ class Hotel:
         self.cbo_room_ext_no.grid(row=16, column=1, pady=3, padx=20)
 
         # Receipt
-        self.lbl_receipt = Label(rightframe, font=('calibry', 10, 'bold'),
-                                 text='C.Ref.    First Name    Last Name    Address    Mobile'
-                                      '    Email    Gender    Identity    Check in    Check out    Room type   '
-                                      'Meal    Paid    Method', pady=10, bg='cadet blue', bd=5)
-        self.lbl_receipt.grid(row=0, column=0, columnspan=17, padx=1, sticky=W)
-        self.txt_receipt = Text(rightframe, height=15, width=132, font=('calibry', 10), pady=10, padx=2, bd=5)
+        self.lbl_receipt = Label(rightframe, font=('arial', 16, 'bold'),
+                                 text='RECEIPT', pady=10, bg='cadet blue', bd=5)
+        self.lbl_receipt.grid(row=0, column=0, columnspan=17, padx=1, sticky=N)
+        self.txt_receipt = Text(rightframe, height=15, width=132, font=('calibry', 10, 'bold'), pady=10, padx=2, bd=5)
         self.txt_receipt.grid(row=1, column=0, columnspan=2)
 
         # Payment
@@ -275,21 +283,21 @@ class Hotel:
                               justify=LEFT)
         self.txt_days.grid(row=2, column=1)
 
-        self.lbl_tax_paid = Label(rightframe, font=('calibry', 12, 'bold'), text='Tax Paid:', bd=7, bg='cadet blue',
+        self.lbl_tax_paid = Label(rightframe, font=('calibry', 12, 'bold'), text='Tax Paid ₹:', bd=7, bg='cadet blue',
                                   pady=1)
         self.lbl_tax_paid.grid(row=3, column=0, sticky=W)
         self.txt_tax_paid = Entry(rightframe, font=('calibry', 12, 'bold'), width=87, bd=3, textvariable=tax_paid,
                                   justify=LEFT)
         self.txt_tax_paid.grid(row=3, column=1)
 
-        self.lbl_sub_total = Label(rightframe, font=('calibry', 12, 'bold'), text='Sub Total:', bd=7, bg='cadet blue',
+        self.lbl_sub_total = Label(rightframe, font=('calibry', 12, 'bold'), text='Sub Total ₹:', bd=7, bg='cadet blue',
                                    pady=1)
         self.lbl_sub_total.grid(row=4, column=0, sticky=W)
         self.txt_sub_total = Entry(rightframe, font=('calibry', 12, 'bold'), width=87, bd=3, textvariable=sub_total,
                                    justify=LEFT)
         self.txt_sub_total.grid(row=4, column=1)
 
-        self.lbl_total_cost = Label(rightframe, font=('calibry', 12, 'bold'), text='Total Cost:', bd=7, bg='cadet blue',
+        self.lbl_total_cost = Label(rightframe, font=('calibry', 12, 'bold'), text='Total Cost ₹:', bd=7, bg='cadet blue',
                                     pady=1)
         self.lbl_total_cost.grid(row=5, column=0, sticky=W)
         self.txt_total_cost = Entry(rightframe, font=('calibry', 12, 'bold'), width=87, bd=3, textvariable=total_cost,
@@ -321,6 +329,16 @@ class Hotel:
         self.btn_exit = Button(bottomframe, text='Exit', font=('calibry', 16, 'bold'), bd=6, pady=10, padx=5,
                                bg='cadet blue', width=23, command=i_exit)
         self.btn_exit.grid(row=0, column=6, padx=4, pady=16)
+
+        # Menu Bar
+        self.menubar = Menu(master)
+        master.config(menu=self.menubar)
+        self.filemenu = Menu(self.menubar, tearoff=0, activeborderwidth=5)
+        self.menubar.add_cascade(label='File', menu=self.filemenu)
+        self.filemenu.add_command(label='New', command=reset)
+        self.filemenu.add_command(label='Save', command=save_receipt)
+        self.filemenu.add_separator()
+        self.filemenu.add_command(label='Exit', command=i_exit)
 
 
 if __name__ == '__main__':
