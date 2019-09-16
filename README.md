@@ -88,6 +88,8 @@ Created by [vinaysnikam47](https://github.com/vinaysnikam47)
 
 [Bank Account Manager](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Classes/bank_account_manager.py) - This is bank account manager/ ATM Service. This manages accounts like checking, saving and business. 
 
+[Sticky Pad](https://github.com/vinaysnikam47/Python-3-Projects/blob/master/Classes/Sticky.py) - This is simple sticky pad (Text editor) application which has functionalities like, cut, copy, paste, undo, redo, open, save, save as and new window. It is created by using tkinter and class.
+
 ===============================================================================
 
 ## Classic Algorithms ##
